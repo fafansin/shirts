@@ -19,6 +19,11 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+--
+-- Database: `keso`
+--
+CREATE DATABASE IF NOT EXISTS `keso` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `keso`;
 
 # Dump of table user_types
 # ------------------------------------------------------------
