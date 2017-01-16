@@ -1,0 +1,201 @@
+/*
+*	jCarousel style
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+	width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0 auto;
+	background-color:#000;
+	color:#EEE;
+	font-family: trebuchet ms;
+}
+header{
+	background:url(../images/bricks.png) repeat;
+}
+H1, H2, H3, H4, H5{
+	margin:0;
+}
+a,
+a:link,
+a:visited{
+	color:#eee;
+	text-decoration:none;
+}
+img{
+	width:100%;
+	height:auto;
+}
+
+.shirt-item{
+	/* width:25%; */
+	float:left;
+	text-align:center;
+	padding:10px;
+	
+}
+/*
+.head-wrap{
+	padding:15px 0;
+}
+*/
+.site{
+	padding:15px 0;
+}
+.logo{
+	max-width:60px;
+}
+.brand-wrap{
+    padding-top: 20px;
+	padding-left:15px;
+	font-size:12px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.center{
+	text-align:center;
+}
+.content{
+	/* padding-top:20px */
+}
+[class*="col-"] {
+    width: 100%;
+}
+.slider-item{
+	width:100%;
+	height:400px;
+	background-position:50% 0%;
+	background-size:cover;
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	float:right;
+} 
+ul.topnav li a:hover {background-color: #111;}
+ul.topnav li.special,
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+ul.topnav li.special{display:inline}
+ul.topnav li{display: none;}
+ul.topnav li{
+	float:right;
+}
+/* ul.topnav li {display: none;} */
+ul.topnav li.icon {
+	float: right;
+	display: inline-block;
+}
+ul.topnav.responsive {position: relative;}
+ul.topnav.responsive li.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ul.topnav.responsive li {
+	float: none;
+	display: inline;
+}
+ul.topnav.responsive li a {
+	display: block;
+	text-align: left;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  color:#363636;
+}
+/* Zebra striping */
+tr{
+	background:#fff;
+}
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: #eee; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+table a,
+table a:visited{
+	color:#000000 !important;
+}
+a:hover,
+.button:hover{
+	opacity:.7;
+}
+form label{
+	width:200px;
+	float:left;
+	font-size:12px;
+}
+.greetings-wrap{
+	text-align:right;
+	padding-top:30px;
+	padding-right:5px;
+}
+.greetings-wrap a:link,
+.greetings-wrap a:visited{
+	color:#333;
+	font-size:12px;
+}
+.icon-buttons{
+	width:30px;
+}
+.button {
+    display: block;
+    width: 100px;
+    height: 35px;
+    background: #D4D5DC;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000 !important;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    box-shadow: 1px 0px 2px #888888;
+}
+.button:active {
+	box-shadow:none;
+}
